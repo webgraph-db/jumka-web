@@ -1,4 +1,4 @@
-# जुम्का समुदाय | Jumka Community
+# जुम्क समुदाय | Jumka Community
 
 Premium responsive web application for Jumka Community with heritage-inspired design.
 
