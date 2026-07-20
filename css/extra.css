@@ -1,0 +1,57 @@
+
+.header__overlay {
+  display: none;
+  position: fixed;
+  inset: 0;
+  background: rgba(44, 24, 16, 0.5);
+  z-index: 999;
+}
+
+.header__overlay--visible {
+  display: block;
+}
+
+.icon {
+  width: 1em;
+  height: 1em;
+  fill: currentColor;
+  flex-shrink: 0;
+}
+
+.stats__icon svg,
+.contact__icon svg,
+.footer__contact-item svg,
+.footer__submit svg {
+  width: 24px;
+  height: 24px;
+}
+
+.hero__arrow svg {
+  width: 32px;
+  height: 32px;
+  fill: currentColor;
+}
+
+.articles__meta svg {
+  width: 14px;
+  height: 14px;
+}
+
+.footer__social svg {
+  width: 20px;
+  height: 20px;
+}
+
+.footer__submit svg {
+  width: 18px;
+  height: 18px;
+}
+
+.footer__contact-item svg {
+  width: 18px;
+  height: 18px;
+}
+
+.footer__success[hidden] {
+  display: none;
+}

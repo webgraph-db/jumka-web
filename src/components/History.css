@@ -1,0 +1,124 @@
+.history {
+  background: linear-gradient(180deg, var(--beige-light) 0%, var(--beige) 100%);
+}
+
+.history__timeline {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.history__line {
+  position: absolute;
+  left: 50%;
+  top: 0;
+  bottom: 0;
+  width: 3px;
+  background: linear-gradient(to bottom, var(--gold), var(--maroon));
+  transform: translateX(-50%);
+  border-radius: 3px;
+}
+
+.history__item {
+  position: relative;
+  display: flex;
+  align-items: center;
+  margin-bottom: 48px;
+  width: 50%;
+}
+
+.history__item--left {
+  padding-right: 48px;
+  margin-left: 0;
+  justify-content: flex-end;
+}
+
+.history__item--right {
+  padding-left: 48px;
+  margin-left: 50%;
+  justify-content: flex-start;
+}
+
+.history__content {
+  background: var(--white);
+  padding: 28px 32px;
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-md);
+  border: 1px solid var(--beige-dark);
+  transition: var(--transition);
+  max-width: 380px;
+}
+
+.history__content:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+  border-color: var(--gold);
+}
+
+.history__year {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: var(--gold-dark);
+  margin-bottom: 8px;
+}
+
+.history__title {
+  font-size: 1.15rem;
+  font-weight: 600;
+  color: var(--maroon);
+  margin-bottom: 8px;
+}
+
+.history__desc {
+  font-size: 0.95rem;
+  color: var(--text-muted);
+  line-height: 1.6;
+}
+
+.history__dot {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: var(--gold);
+  border: 4px solid var(--white);
+  border-radius: 50%;
+  box-shadow: 0 0 0 3px var(--maroon);
+  z-index: 2;
+}
+
+.history__item--left .history__dot {
+  right: -10px;
+}
+
+.history__item--right .history__dot {
+  left: -10px;
+}
+
+@media (max-width: 768px) {
+  .history__line {
+    left: 20px;
+  }
+
+  .history__item,
+  .history__item--left,
+  .history__item--right {
+    width: 100%;
+    margin-left: 0;
+    padding-left: 56px;
+    padding-right: 0;
+    justify-content: flex-start;
+  }
+
+  .history__item--left .history__dot,
+  .history__item--right .history__dot {
+    left: 10px;
+    right: auto;
+  }
+
+  .history__content {
+    max-width: 100%;
+  }
+}
