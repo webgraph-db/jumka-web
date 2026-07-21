@@ -151,7 +151,7 @@ export default function Footer() {
 
       <div className="footer__bottom">
         <div className="container footer__bottom-inner">
-          <p>&copy; २०८१ जुम्का समुदाय। सर्वाधिकार सुरक्षित।</p>
+          <p>&copy; २०८१ जुम्क समुदाय। सर्वाधिकार सुरक्षित।</p>
           <div className="footer__links">
             <a href="#home">गृहपृष्ठ</a>
             <a href="#about">हाम्रो बारे</a>

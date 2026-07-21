@@ -16,7 +16,7 @@ export default function About() {
         <div className="about__grid">
           <div className="about__image-wrap">
             <img
-              src="https://images.unsplash.com/photo-1587474260589-4e8b4e2c4f1e?w=800&q=80"
+              src="./images/jumka1.jpg"
               alt="जुम्क समुदाय"
               className="about__image"
             />

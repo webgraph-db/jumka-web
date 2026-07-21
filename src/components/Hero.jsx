@@ -73,7 +73,7 @@ export default function Hero() {
             />
             <div className="hero__slide-overlay" />
             <div className="hero__slide-content container">
-              <span className="hero__tag fade-in">जुम्का समुदाय</span>
+              <span className="hero__tag fade-in">जुम्क समुदाय</span>
               <h1 className="hero__title fade-in">{slide.title}</h1>
               <p className="hero__subtitle fade-in">{slide.subtitle}</p>
               <a href="#about" className="btn btn-primary hero__cta fade-in">
