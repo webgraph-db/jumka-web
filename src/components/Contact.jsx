@@ -21,8 +21,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4>फोन</h4>
-                <a href="tel:+9779841234567">+९७७ ९८४-१२३४५६७</a>
-                <a href="tel:+977014123456">+९७७ ०१-४१२३४५६</a>
+                <a href="tel:+9779745504890">+९७७ ९७४५५०४८९०</a>
               </div>
             </div>
 
@@ -32,7 +31,7 @@ export default function Contact() {
               </div>
               <div>
                 <h4>इमेल</h4>
-                <a href="mailto:info@jumkacommunity.org">info@jumkacommunity.org</a>
+                <a href="mailto:info@jumkacommunity.org"></a>
                 <a href="mailto:contact@jumkacommunity.org">contact@jumkacommunity.org</a>
               </div>
             </div>
@@ -43,8 +42,8 @@ export default function Contact() {
               </div>
               <div>
                 <h4>ठेगाना</h4>
-                <p>जुम्का समुदाय कार्यालय</p>
-                <p>काठमाडौं, नेपाल</p>
+                <p>जुम्क समुदाय कार्यालय</p>
+                <p>बारेकोट-४, जुम्क, नेपाल </p>
               </div>
             </div>
           </div>
