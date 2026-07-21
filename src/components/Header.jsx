@@ -36,7 +36,7 @@ export default function Header() {
             <span>ज</span>
           </div>
           <div className="header__logo-text">
-            <span className="header__logo-title">जुम्का समुदाय</span>
+            <span className="header__logo-title">जुम्क समुदाय</span>
             <span className="header__logo-sub">Jumka Community</span>
           </div>
         </a>
