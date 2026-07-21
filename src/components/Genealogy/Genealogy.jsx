@@ -1,5 +1,5 @@
 import "./Genealogy.css";
-import familyTree from "../../data/familyData";
+import familyTree from "./familyData.js";
 import TreeNode from "./TreeNode";
 
 export default function Genealogy() {
