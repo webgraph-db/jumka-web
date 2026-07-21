@@ -35,7 +35,7 @@ export default function Footer() {
                   <span>ज</span>
                 </div>
                 <div>
-                  <h3>जुम्का समुदाय</h3>
+                  <h3>जुम्क समुदाय</h3>
                   <p>Jumka Community</p>
                 </div>
               </div>
@@ -44,9 +44,9 @@ export default function Footer() {
                 मार्गमा अगाडि बढेको समुदाय।
               </p>
               <div className="footer__contact-list">
-                <a href="tel:+9779841234567" className="footer__contact-item">
+                <a href="tel:+9779745504890" className="footer__contact-item">
                   <HiPhone size={18} />
-                  <span>+९७७ ९८४-१२३४५६७</span>
+                  <span>+९७७ ९७४५५०४८९०</span>
                 </a>
                 <a href="mailto:info@jumkacommunity.org" className="footer__contact-item">
                   <HiMail size={18} />
@@ -54,7 +54,7 @@ export default function Footer() {
                 </a>
                 <div className="footer__contact-item">
                   <HiLocationMarker size={18} />
-                  <span>काठमाडौं, नेपाल</span>
+                  <span>बारेकोट-४, जुम्क, नेपाल</span>
                 </div>
               </div>
               <div className="footer__social">
@@ -134,8 +134,8 @@ export default function Footer() {
               <h3 className="footer__heading">हाम्रो स्थान</h3>
               <div className="footer__map-wrap">
                 <iframe
-                  title="जुम्का समुदाय स्थान"
-                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56516.31307098989!2d85.3085!3d27.7172!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb198856555555%3A0x1234567890abcdef!2sKathmandu%2C%20Nepal!5e0!3m2!1sen!2snp!4v1700000000000!5m2!1sen!2snp"
+                  title="जुम्क समुदाय स्थान"
+                  src="<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d829.5203486447961!2d82.2771742695837!3d28.963553998467873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDU3JzQ4LjgiTiA4MsKwMTYnNDAuMSJF!5e1!3m2!1sen!2snp!4v1784609935051!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
