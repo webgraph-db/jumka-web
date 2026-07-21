@@ -6,7 +6,7 @@ const stats = [
   { icon: HiUsers, value: 2500, suffix: '+', label: 'सदस्यहरू', desc: 'सक्रिय समुदाय सदस्य' },
   { icon: HiBookOpen, value: 150, suffix: '+', label: 'लेखहरू', desc: 'प्रकाशित लेख र लेखन' },
   { icon: HiCalendar, value: 45, suffix: '+', label: 'कार्यक्रम', desc: 'वार्षिक सांस्कृतिक कार्यक्रम' },
-  { icon: HiHeart, value: 100, suffix: '+', label: 'वर्ष', desc: 'समृद्ध ऐतिहासिक विरासत' },
+  { icon: HiHeart, value: 250, suffix: '+', label: 'वर्ष', desc: 'समृद्ध ऐतिहासिक विरासत' },
 ]
 
 function AnimatedNumber({ value, suffix }) {
