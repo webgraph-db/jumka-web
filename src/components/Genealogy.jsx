@@ -33,8 +33,8 @@ export default function Genealogy() {
 
                   <div className="person">
                     <div className="avatar">👤</div>
-                    <h4>बाबू</h4>
-                    <p>भेले-जेठो-छोरा</p>
+                    <h4>भेले-जेठो-छोरा</h4>
+                    <p>बाबू</p>
                     <span>१८३०-१८७९</span>
                   </div>
 
@@ -44,8 +44,8 @@ export default function Genealogy() {
 
                       <div className="person">
                         <div className="avatar">👤</div>
-                        <h4>झुप्रो पुन</h4>
-                        <p>बाँचिला धामी</p>
+                        <h4>जेठा</h4>
+                        <p>गामरा</p>
                         <span>१८६०-१९००</span>
                       </div>
 
@@ -86,36 +86,12 @@ export default function Genealogy() {
 
                   <div className="person">
                     <div className="avatar">👤</div>
-                    <h4>राम BK</h4>
-                    <span>पहिलो पुस्ता</span>
+                    <h4>झुप्रो पुन</h4>
+                    <p>बाँचिला धामी</p>
+                    <span>१८८२ </span>
                   </div>
 
-                  <ul>
-
-                    <li>
-
-                      <div className="person">
-                        <div className="avatar">👤</div>
-                        <h4>कृष्ण BK</h4>
-                        <span>दोस्रो पुस्ता</span>
-                      </div>
-
-                    </li>
-
-                    <li>
-
-                      <div className="person">
-                        <div className="avatar">👤</div>
-                        <h4>नवराज BK</h4>
-                        <span>दोस्रो पुस्ता</span>
-                      </div>
-
-                    </li>
-
-                  </ul>
-
-                </li>
-
+           
                 {/* Son 3 */}
 
                 <li>
