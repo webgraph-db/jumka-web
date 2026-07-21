@@ -4,12 +4,16 @@ export default [
 id:1,
 parentId:null,
 name:"भेले पुन"
+nickname:"भेले"
+year:"१९००-१९८०"
 },
 
 {
 id:2,
 parentId:1,
 name:"बाबू"
+nickname:"बाबू"
+year:"१९२०-१९९०"
 },
 
 {
