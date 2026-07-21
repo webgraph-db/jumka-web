@@ -1,5 +1,5 @@
 import "./Genealogy.css";
-import familyTree from "./familyData.js";
+import familyTree from "../../data/familyData.js";
 import TreeNode from "./TreeNode";
 
 export default function Genealogy() {
@@ -9,9 +9,10 @@ export default function Genealogy() {
 
         <div className="section-header">
           <span className="section-tag">वंशावली</span>
+ 
 
           <h2 className="section-title">
-            जुम्का समुदायको वंशावली
+            जुम्क समुदायको वंशावली
           </h2>
 
           <p className="section-subtitle">
