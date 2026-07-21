@@ -62,7 +62,7 @@ export default function Genealogy() {
 
                              {/* Child 3 */}
                      <li>
-                      <div className="person">1
+                      <div className="person">
                       <div className="avatar">👤</div>
                       <h4>कान्छा</h4>
                  <p>तेस्रो छोरा</p>
