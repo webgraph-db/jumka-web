@@ -135,7 +135,7 @@ export default function Footer() {
               <div className="footer__map-wrap">
                 <iframe
                   title="जुम्क समुदाय स्थान"
-                  src="<iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d829.5203486447961!2d82.2771742695837!3d28.963553998467873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDU3JzQ4LjgiTiA4MsKwMTYnNDAuMSJF!5e1!3m2!1sen!2snp!4v1784609935051!5m2!1sen!2snp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>"
+                  src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d829.5203486447961!2d82.2771742695837!3d28.963553998467873!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMjjCsDU3JzQ4LjgiTiA4MsKwMTYnNDAuMSJF!5e1!3m2!1sen!2snp!4v1784609935051!5m2!1sen!2snp"
                   width="100%"
                   height="100%"
                   style={{ border: 0 }}
