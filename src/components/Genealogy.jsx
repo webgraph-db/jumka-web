@@ -7,9 +7,9 @@ export default function Genealogy() {
 
         <div className="section-header">
           <span className="section-tag">वंशावली</span>
-          <h2 className="section-title">जुम्का समुदायको वंशावली</h2>
+          <h2 className="section-title">जुम्क समुदायको वंशावली</h2>
           <p className="section-subtitle">
-            आफ्नो पुर्खादेखि वर्तमान पुस्तासम्मको परिवारिक सम्बन्ध हेर्नुहोस्।
+           हाम्रो पुर्खादेखि वर्तमान पुस्तासम्मको परिवारिक सम्बन्ध हेर्नुहोस्।
           </p>
         </div>
 
@@ -21,8 +21,9 @@ export default function Genealogy() {
 
               <div className="person root">
                 <div className="avatar">👑</div>
-                <h3>वेले पुन</h3>
+                <h3>भेले पुन</h3>
                 <p>मूल पुर्खा</p>
+                <span>१८००-१८५४</span>
               </div>
 
               <ul>
@@ -32,8 +33,9 @@ export default function Genealogy() {
 
                   <div className="person">
                     <div className="avatar">👤</div>
-                    <h4>कान्छा BK</h4>
-                    <span>पहिलो पुस्ता</span>
+                    <h4>बाबू</h4>
+                    <p>भेले-जेठो-छोरा</p>
+                    <span>१८३०-१८७९</span>
                   </div>
 
                   <ul>
@@ -42,8 +44,9 @@ export default function Genealogy() {
 
                       <div className="person">
                         <div className="avatar">👤</div>
-                        <h4>हरि BK</h4>
-                        <span>दोस्रो पुस्ता</span>
+                        <h4>झुप्रो पुन</h4>
+                        <p>बाँचिला धामी</p>
+                        <span>१८६०-१९००</span>
                       </div>
 
                       <ul>
@@ -52,7 +55,8 @@ export default function Genealogy() {
 
                           <div className="person">
                             <div className="avatar">👤</div>
-                            <h4>धरविन्द्र BK</h4>
+                            <h4>धुरधे पुर्यानी </h4>
+                            <p>माहिला</p>
                             <span>तेस्रो पुस्ता</span>
                           </div>
 
