@@ -5,7 +5,7 @@ import './Hero.css'
 const slides = [
   {
     image: 'https://images.unsplash.com/photo-1548013146-72479768bada?w=1920&q=80',
-    title: 'जुम्का समुदायमा स्वागत छ',
+    title: 'जुम्क समुदायमा स्वागत छ',
     subtitle: 'हाम्रो विरासत, संस्कृति र परम्पराको संरक्षण',
     cta: 'थप जान्नुहोस्',
   },

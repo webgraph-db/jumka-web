@@ -4,7 +4,7 @@ import './Header.css'
 
 const navItems = [
   { label: 'गृहपृष्ठ', href: '#home' },
-  { label: 'हाम्रो बारे', href: '#about' },
+  { label: 'हाम्रो बारेमा', href: '#about' },
   { label: 'इतिहास', href: '#history' },
   { label: 'वंशावली', href: '#genealogy' },
   { label: 'लेखहरू', href: '#articles' },

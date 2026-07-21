@@ -23,7 +23,7 @@ export default function Genealogy() {
           <div className="genealogy__root">
             <div className="genealogy__root-node">
               <span className="genealogy__root-icon">🌳</span>
-              <h3>जुम्का वंश</h3>
+              <h3>जुम्क वंश</h3>
               <p>मूल वंश</p>
             </div>
           </div>
