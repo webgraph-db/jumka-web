@@ -1,16 +1,32 @@
+import "./CustomNode.css";
+    import { Handle, Position } from "@xyflow/react";
 
-export default function CustomNode({ data }) {
-  return (
-    <div className="person">
-      <div className="avatar">
-        {data.id === 1 ? "👑" : "👤"}
-      </div>
+    export default function CustomNode({ data }) {
+      return (
+        <div className={`person-card ${data.id === 1 ? "root-card" : ""}`}>
 
-      <h4>{data.name}</h4>
+          <Handle type="target" position={Position.Top} />
 
-      {data.nickname && <p>{data.nickname}</p>}
+          <div className="avatar">
+            {data.photo ? (
+              <img src={data.photo} alt={data.name} />
+            ) : (
+              <span>{data.id === 1 ? "👑" : "👤"}</span>
+            )}
+          </div>
 
-      {data.year && <span>{data.year}</span>}
-    </div>
-  );
-}
+          <h3>{data.name}</h3>
+
+          {data.nickname && (
+            <p className="nickname">{data.nickname}</p>
+          )}
+
+          {data.year && (
+            <p className="year">{data.year}</p>
+          )}
+
+          <Handle type="source" position={Position.Bottom} />
+
+        </div>
+      );
+    }

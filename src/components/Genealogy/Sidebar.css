@@ -1,0 +1,44 @@
+ .sidebar{
+    position:fixed;
+    top:0;
+    right:0;
+    width:380px;
+    height:100vh;
+    background:#fff;
+    box-shadow:-8px 0 30px rgba(0,0,0,.15);
+    padding:25px;
+    overflow:auto;
+    z-index:999;
+    }
+
+    .close-btn{
+    float:right;
+    border:none;
+    background:#7b1026;
+    color:#fff;
+    padding:8px 12px;
+    border-radius:8px;
+    cursor:pointer;
+    }
+
+    .profile{
+    text-align:center;
+    margin-top:40px;
+    }
+
+    .profile img,
+    .photo-placeholder{
+    width:140px;
+    height:140px;
+    border-radius:50%;
+    margin:auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    background:#eee;
+    font-size:60px;
+    object-fit:cover;
+    }
+
+    .profile h2{margin:15px 0 10px;}
+
