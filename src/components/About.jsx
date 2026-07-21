@@ -5,8 +5,8 @@ export default function About() {
     <section id="about" className="section about">
       <div className="container">
         <div className="section-header">
-          <span className="section-tag">हाम्रो बारे</span>
-          <h2 className="section-title">जुम्का समुदायको परिचय</h2>
+          <span className="section-tag">हाम्रो बारेमा</span>
+          <h2 className="section-title">जुम्क समुदायको परिचय</h2>
           <p className="section-subtitle">
             हामी एक गौरवशाली समुदाय हौं जसले आफ्नो विरासत, संस्कृति र परम्पराको संरक्षण गर्दै
             आउँदैछौं।
@@ -17,7 +17,7 @@ export default function About() {
           <div className="about__image-wrap">
             <img
               src="https://images.unsplash.com/photo-1587474260589-4e8b4e2c4f1e?w=800&q=80"
-              alt="जुम्का समुदाय"
+              alt="जुम्क समुदाय"
               className="about__image"
             />
             <div className="about__badge">
@@ -27,9 +27,9 @@ export default function About() {
           </div>
 
           <div className="about__content">
-            <h3 className="about__heading">हाम्रो मिशन</h3>
+            <h3 className="about__heading">हाम्रो उद्देश्य </h3>
             <p className="about__text">
-              जुम्का समुदाय नेपालको एक ऐतिहासिक र सांस्कृतिक समुदाय हो। हाम्रो उद्देश्य
+              जुम्क समुदाय नेपlको एक ऐतिहासिक र सांस्कृतिक समुदाय हो। हाम्रो उद्देश्य
               हाम्रा पूर्खाहरूले छोडेको समृद्ध विरासतलाई संरक्षण गर्नु, युवा पुस्तालाई
               हाम्रो संस्कृति र परम्पराबारे शिक्षित गर्नु र समुदायको एकता र विकासमा
               योगदान पुर्‍याउनु हो।
