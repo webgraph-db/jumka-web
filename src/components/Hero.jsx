@@ -4,19 +4,19 @@ import './Hero.css'
 
 const slides = [
   {
-    image: 'https://images.unsplash.com/photo-1548013146-72479768bada?w=1920&q=80',
+    image: '/images/jumka1.jpg',
     title: 'जुम्क समुदायमा स्वागत छ',
     subtitle: 'हाम्रो विरासत, संस्कृति र परम्पराको संरक्षण',
     cta: 'थप जान्नुहोस्',
   },
   {
-    image: 'https://images.unsplash.com/photo-1524492412937-b28005a5d630?w=1920&q=80',
+    image: '/images/jumka2.jpg',
     title: 'हाम्रो समृद्ध इतिहास',
     subtitle: 'पुस्तौंदेखि चलिआएको गौरवशाली परम्परा',
     cta: 'इतिहास हेर्नुहोस्',
   },
   {
-    image: 'https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1920&q=80',
+    image: '/images/jumka3.jpg',
     title: 'वंशावली र वंश परम्परा',
     subtitle: 'हाम्रा पूर्खाहरूको याद र सम्मान',
     cta: 'वंशावली हेर्नुहोस्',
