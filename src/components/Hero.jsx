@@ -22,13 +22,13 @@ const slides = [
     cta: 'वंशावली हेर्नुहोस्',
   },
   {
-    image: 'https://images.unsplash.com/photo-1582510003544-4d00b7f74220?w=1920&q=80',
+    image: '/images/jumka4.jpg',
     title: 'सांस्कृतिक उत्सवहरू',
     subtitle: 'हाम्रा चाडपर्व र सामुदायिक कार्यक्रमहरू',
     cta: 'कार्यक्रम हेर्नुहोस्',
   },
   {
-    image: 'https://images.unsplash.com/photo-1609137144816-7d8b7a996252?w=1920&q=80',
+    image: '/images/jumka5.jpg',
     title: 'एकता र सहयोग',
     subtitle: 'सँगै मिलेर समुदायको विकास',
     cta: 'सामेल हुनुहोस्',
